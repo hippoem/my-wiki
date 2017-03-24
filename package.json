@@ -1,18 +1,22 @@
 {
   "name": "my-wiki",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "My Wiki!",
+  "main": "index.js",
+  "author": "Adthasit Suksomthawisap",
+  "license": "ISC",
+  "scripts": {
+    "start": "webpack",
+    "start-dev-ui": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
   }
 }
